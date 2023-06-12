@@ -17,7 +17,6 @@
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
@@ -51,4 +50,4 @@ Mkfile.old
 dkms.conf
 
 # Build Directory
-build/
+[Bb]uild/

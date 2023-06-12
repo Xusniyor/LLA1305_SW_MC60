@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "ril_util.h": "c",
+        "ril.h": "c",
+        "ql_system.h": "c",
+        "ql_timer.h": "c",
+        "ril_system.h": "c",
+        "ql_stdlib.h": "c",
+        "ql_type.h": "c",
+        "convertutf.h": "c",
+        "main.h": "c",
+        "ql_uart.h": "c",
+        "custom_feature_def.h": "c",
+        "nema_pro.h": "c",
+        "stdint.h": "c",
+        "math.h": "c",
+        "lwgps.h": "c",
+        "lwgps_opt.h": "c",
+        "time.h": "c",
+        "limits": "c",
+        "convertutc.h": "c",
+        "lib_ril_sms.h": "c",
+        "ql_fota.h": "c",
+        "ql_common.h": "c",
+        "ril_telephony.h": "c",
+        "limits.h": "c",
+        "cstdint": "c",
+        "utf.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

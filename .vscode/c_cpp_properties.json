@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "MC60",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/**"
+            ],
+            "defines": [
+                "__CUSTOMER_CODE__"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++98",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

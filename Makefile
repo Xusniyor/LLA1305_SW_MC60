@@ -49,6 +49,7 @@ INCS += -I $(SDK_DIR)/include  \
         -I app       \
 		-I app/utf   \
 		-I app/lwgps \
+		-I app/util
 
 
 #-------------------------------------------------------------------------------
@@ -60,6 +61,7 @@ C_SOURCES += $(wildcard opencpu/fota/src/*.c)
 C_SOURCES += $(wildcard app/*.c)
 C_SOURCES += $(wildcard app/utf/*.c)
 C_SOURCES += $(wildcard app/lwgps/*.c)
+C_SOURCES += $(wildcard app/util/*.c)
 
 
 #OBJECTS =  $(patsubst %.c, $(BUILD_DIR)/%.o, $(C_SOURCES))

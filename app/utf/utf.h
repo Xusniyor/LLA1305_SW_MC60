@@ -19,7 +19,8 @@
  * for internal or external distribution as long as this notice
  * remains attached.
  */
-
+#ifndef __UTF_H__
+#define __UTF_H__
 /* ---------------------------------------------------------------------
 
     Conversions between UTF32, UTF-16, and UTF-8.  Header file.
@@ -148,5 +149,7 @@ extern "C"
 #ifdef __cplusplus
 }
 #endif
+
+#endif /* __UTF_H__ */
 
 /* --------------------------------------------------------------------- */

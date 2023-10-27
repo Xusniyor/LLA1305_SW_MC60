@@ -9,6 +9,7 @@
 #include "ril_telephony.h"
 #include "ril_system.h"
 #include "ril_location.h"
+#include "ril_network.h"
 #include "ql_stdlib.h"
 #include "ql_error.h"
 #include "ql_trace.h"
@@ -19,9 +20,15 @@
 #include "ql_time.h"
 #include "ql_gnss.h"
 #include "ql_gpio.h"
+#include "ql_gprs.h"
 #include "ql_iic.h"
 
-#define DEBUG_ENABLE 0
+#include "lwgps.h"
+#include "utf.h"
+#include "util.h"
+#include "utftools.h"
+
+#define DEBUG_ENABLE 1
 #if DEBUG_ENABLE > 0
 #define DEBUG_PORT UART_PORT1
 #define DBG_BUF_LEN 512

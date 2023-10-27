@@ -50,7 +50,8 @@
 /*               case, the module still work as a STANDARD module.      */
 /************************************************************************/
 static const ST_AppEnable appEnableCfg = {
-    APP_ENABLE};
+    APP_ENABLE // APP_ENABLE
+};
 
 static const ST_PowerKeyCfg pwrkeyCfg = {
     TRUE, // working mode for power-on on PWRKEY pin
@@ -61,7 +62,7 @@ static const ST_PowerKeyCfg pwrkeyCfg = {
     call Ql_LockPower () to lock power supply, or module will lose power when the level of PWRKEY pin goes high.
     */
 
-    TRUE, // working mode for power-off on PWRKEY pin
+    TRUE // working mode for power-off on PWRKEY pin
     /*
     Module automatically powers off when feeding a low level to POWER_KEY pin.
 
@@ -103,4 +104,5 @@ const ST_SystemConfig SystemCfg[] = {
     {SYS_CONFIG_PWRKEY_DATA_ID, SYS_CONFIG_PWRKEY_DATA_SIZE, (void *)&pwrkeyCfg},
     {SYS_CONFIG_WATCHDOG_DATA_ID, SYS_CONFIG_WATCHDOG_DATA_SIZE, (void *)&wtdCfg},
     {SYS_CONFIG_DEBUG_MODE_ID, SYS_CONFIG_DEBUGMODE_DATA_SIZE, (void *)&debugPortCfg},
-    {SYS_CONFIG_END, 0, NULL}};
+    {SYS_CONFIG_END, 0, NULL} // SYS_CONFIG_END
+};

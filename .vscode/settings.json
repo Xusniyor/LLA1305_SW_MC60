@@ -25,7 +25,17 @@
         "ril_telephony.h": "c",
         "limits.h": "c",
         "cstdint": "c",
-        "utf.h": "c"
+        "utf.h": "c",
+        "unistd.h": "c",
+        "cmath": "c",
+        "ql_iic.h": "c",
+        "util.h": "c",
+        "custom_task_cfg.h": "c",
+        "ql_gprs.h": "c",
+        "ril_location.h": "c",
+        "ql_memory.h": "c",
+        "ql_trace.h": "c",
+        "ql_error.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

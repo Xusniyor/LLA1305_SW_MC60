@@ -31,9 +31,6 @@
  *
  ****************************************************************************/
 
-#ifndef __TASK_CFG_H__
-#define __TASK_CFG_H__
-
 /**
  ******* TAST CONFIG START ********
  *----------------------------------
@@ -51,13 +48,13 @@
  */
 
 /*----------------------------------------------------------------------------------------------------
- | Task Entry Function | Task Id Name   | Task Stack Size (Bytes) | Default Value1 | Default Value2 |
+ |        Task Entry Function | Task Id Name   | Task Stack Size (Bytes) | Default Value1 | Default Value2 |
  *----------------------------------------------------------------------------------------------------*/
-TASK_ITEM(proc_main_task, main_task_id, 10 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
-TASK_ITEM(proc_reserved1, reserved1_id, 5 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
-TASK_ITEM(proc_reserved2, reserved2_id, 5 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
-/* IIC Task */
-TASK_ITEM(proc_subtask1, subtask1_id, 5 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
+TASK_ITEM(proc_main_task, main_task_id, 24 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
+TASK_ITEM(proc_reserved1, reserved1_id, 8 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
+TASK_ITEM(proc_reserved2, reserved2_id, 8 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
+
+TASK_ITEM(proc_subtask1, subtask1_id, 12 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
 
 #if __ECHO_REMOTE_APP__
 TASK_ITEM(proc_subtask1, subtask1_id, 1 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
@@ -111,5 +108,6 @@ TASK_ITEM(proc_subtask1, subtask1_id, 10 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
 TASK_ITEM(proc_subtask1, subtask1_id, 2 * 1024, DEFAULT_VALUE1, DEFAULT_VALUE2)
 #endif
 
-#endif
-/********* TAST CONFIG END *********/
+/**
+ ******* TAST CONFIG END ********
+ */
